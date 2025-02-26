@@ -26,7 +26,7 @@ function Flag() {
     },[value])
   return (
     <div className='flag'>
-      flag{value}
+      {value}
       <ProductList data={product}/>
       <Country/>
     
