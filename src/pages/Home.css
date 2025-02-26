@@ -1,0 +1,204 @@
+.Home{
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+    /* width: 100vw; */
+
+}
+.Home-top{
+    display: flex;
+    border-bottom: 2px solid white;
+    padding-bottom: 25px;
+}
+.Home-top img{
+    width:20% ;
+    height:80%;
+}
+.Home-top p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.Home-top button{
+    width: 190px;
+    background-color: yellow;
+    color: aqua;
+}
+.Home-top button:hover{
+    background-color: rgb(177, 59, 12);
+}
+.Home-top button span{
+    color: black;
+}
+.search-box {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.search-box input {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius:8px 0px 0px 8px ;
+    border: 1px solid #ccc; 
+    outline: none; 
+    color: black;
+} 
+
+.search-box button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius:0px 8px 8px 0px ;
+    background-color: white;
+    color: black;
+    height: 43px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    right: 1px;
+}
+
+.search-box button:hover {
+    background-color: rgb(177, 59, 12); 
+}
+
+.Home-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    border-bottom: 2px solid white;
+}
+
+.Home-cat div {
+    display: flex; 
+    align-items: center; 
+    border-radius: 8px; 
+}
+
+.Home-lat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    border-bottom: 2px solid white;
+    padding-bottom: 40px;
+}
+
+.par {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    color:  rgb(177, 59, 12); 
+}
+.par img{
+    width: 100%;
+}
+.par p:hover{
+    color: yellow;
+}
+
+.popular-ingredients {
+    width: 100%;
+    text-align: center;border-bottom: 2px solid white;
+}
+
+.popular {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredient-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular img {
+    width: 100%;
+    height: auto;
+}
+
+.popular p {
+    margin-top: 10px;
+    font-size: 16px; 
+    color:  rgb(177, 59, 12); 
+}
+.popular p:hover{
+    color: yellow;
+} 
+
+
+.Home {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+ }
+
+ @media screen and (max-width: 479px) {
+    .Home-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Home-top img {
+        max-width: 200px;
+        margin: 0 auto;
+
+    }
+    .Home-lat,
+    .popular {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+  
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Home-lat,
+    .popular {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Home-lat,
+    .popular {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+} 
+.alphabet-container{
+    margin-bottom: 50px;
+}
+.alphabet-container h3{
+   padding-top: 20px;
+}
+.alphabet-btn {
+    margin-top: 2px;
+    color: rgb(202, 106, 69); 
+    cursor: pointer; 
+    padding: 5px 4px;
+    display: inline-block;
+    font-size: 18px;
+  }
+  .alphabet-btn:hover{
+    color: rgb(239, 175, 150);
+  }
+  .alphabet-btn span {
+    color: white;
+    padding-left: 10px;
+  }
+  

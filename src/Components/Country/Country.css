@@ -1,0 +1,12 @@
+.div {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+    /* padding: 20px; */
+    width: 1200px;
+}
+
+.div img{
+    cursor: pointer;
+}
