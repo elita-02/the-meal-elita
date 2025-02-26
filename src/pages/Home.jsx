@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import apiClient from '../axios/apiClient';
 import ProductList from '../Components/ProductList/ProductList';
-import { FaSearch } from "react-icons/fa";
 import Country from "../Components/Country/Country";
 import meal from "../assets/meal-icon.png";
 import coffe from "../assets/coffe.png"
