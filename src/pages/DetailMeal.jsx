@@ -41,7 +41,7 @@ function DetailMeal() {
     <div className="container info">
       <div className="arrow">
         <img onClick={() => setId("prew")}  src="https://www.themealdb.com/images/icons/Arrow-Left.png" alt="" className="strelka" />
-        {findTitle && <img src={`${API}/${findTitle.img}.png`} alt={info.strArea} className="flag"/>}
+        {findTitle && <img src={`${API}/${findTitle.img}.png`} alt={info.strArea} className="flag-flag"/>}
         <img onClick={() => setId("next")} src="https://www.themealdb.com/images/icons/Arrow-Right.png" alt="" className="strelka"/>
       </div>
       <div className="info-content">
