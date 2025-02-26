@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FaBars } from "react-icons/fa";  
+// import { FaBars } from "react-icons/fa";  
 import "./Header.css";
 import logo from "../../assets/logo.png";
 
@@ -20,7 +20,7 @@ function Header() {
       <div className="header-top">
         <Link to="/"> <img src={logo} alt="Logo" /></Link>
         <button className="burger-menu">
-          <FaBars />
+          {/* <FaBars /> */}
         </button>
         <div className="header-btn">
           <Link to="/"><button>Home</button></Link>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./Banner.css";
-import { FaSearch } from "react-icons/fa";
+// import { FaSearch } from "react-icons/fa";
 import meal from "../../assets/meal-icon.png"
 import coffe from "../../assets/coffe.png"
 import mal from "../../assets/meal.png"
@@ -37,7 +37,9 @@ function Banner() {
         <div className="search-box">
           <input type="text" placeholder="Search for a Meal.." value={search} onChange={(e) => setSearch(e.target.value)} onKeyDown={handleKeyDown} 
           />
-          <button className="search-btn" onClick={() => navigate(`/search/${search}`)}><FaSearch /></button>
+          <button className="search-btn" onClick={() => navigate(`/search/${search}`)}>
+            {/* <FaSearch /> */}
+            </button>
         </div>
 
         <div className='Home-cat'>
